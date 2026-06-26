@@ -30,13 +30,13 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 *
 	 * 支持配置多张图片（数组），每次刷新页面随机显示一张：
 	 * desktop: [
-	 * "assets/images/DesktopWallpaper/d1.avif",
-	 * "assets/images/DesktopWallpaper/d2.avif",
+	 * "assets/images/DesktopWallpaper/zhuti.jpg",
+	 * "assets/images/DesktopWallpaper/zhuti.jpg",
 	 * ],
 	 *
 	 * mobile:[
-	 *   "assets/images/MobileWallpaper/m1.avif",
-	 *   "assets/images/MobileWallpaper/m2.avif",
+	 *   "assets/images/MobileWallpaper/zhuti.jpg",
+	 *   "assets/images/MobileWallpaper/zhuti.jpg",
 	 * ],
 	 */
 	src: {
