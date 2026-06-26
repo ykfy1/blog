@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
 	title: "楊飛躍的博客",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "欢迎来到我的博客",
 
 	// 站点 URL
 	site_url: "https://blog.yangfeiyue.bot.cd",
