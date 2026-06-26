@@ -153,7 +153,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	},
 	Sponsor: {
 		name: "",
-		url: "//",
+		url: "",
 		icon: "material-symbols:favorite",
 		pageKey: "sponsor",
 	},
