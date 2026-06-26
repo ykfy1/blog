@@ -62,6 +62,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
+			// 打赏
+			LinkPresets.Sponsor,
+
 			// 关于页面
 			LinkPresets.About,
 		],
@@ -76,25 +79,25 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/",
+				url: "https://github.com/CuteLeaf/Firefly",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/",
+				url: "https://gitee.com/CuteLeaf/Firefly",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "QQ交流群",
-				url: "https://qm.qq.com/q/",
+				url: "https://qm.qq.com/q/ZGsFa8qX2G",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "文档",
-				url: "https://blog.yangfeiyue.bot.cd/",
+				name: "Firefly文档",
+				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
 				icon: "material-symbols:docs",
 			},
@@ -104,53 +107,59 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 文档链接
 	// links.push({
 	// 	name: "文档",
-	// 	url: "https://blog.yangfeiyue.bot.cd/",
+	// 	url: "https://docs-firefly.cuteleaf.cn",
 	// 	external: true,
-	// 图标: "material-symbols:docs",
+	// 	icon: "material-symbols:docs",
+	// });
 
-
-	返回 { 链接 } 作为 NavBarConfig;
+	return { links } as NavBarConfig;
 };
 
 // 导航搜索配置
-导出 常量 导航栏搜索配置：NavBarSearchConfig = {
-	方法：NavBarSearchMethod.PageFind，
+export const navBarSearchConfig: NavBarSearchConfig = {
+	method: NavBarSearchMethod.PageFind,
 };
 
 // ============================================================================
 // 链接预设 - 可自由自定义导航栏链接的名称、图标和URL
-// 链接预设 - 允许自定义导航栏链接的名称、图标和 URL
+// Link Presets - Allows free customization of the name, icon, and URL of navigation bar links
 // ============================================================================
-导出 常量 链接预设：记录<字符串，导航栏链接> = {
-	主页：{
-		
-网址： "/",
-		图标：“material-symbols:home”，
+export const LinkPresets: Record<string, NavBarLink> = {
+	Home: {
+		name: "主页",
+		url: "/",
+		icon: "material-symbols:home",
 	},
-	存档：{
-		名称：“归档”，
-		网址：“/archive/”，
-		图标："material-symbols:archive"，
+	Archive: {
+		name: "归档",
+		url: "/archive/",
+		icon: "material-symbols:archive",
 	},
-	分类：{
-		名称：“分类”，
-		网址： "/categories/",
-		图标："material-symbols:folder-open-rounded"，
+	Categories: {
+		name: "分类",
+		url: "/categories/",
+		icon: "material-symbols:folder-open-rounded",
 	},
-	标签：{
-		
-网址： "/tags/",
-		图标："material-symbols:tag-rounded"，
+	Tags: {
+		name: "标签",
+		url: "/tags/",
+		icon: "material-symbols:tag-rounded",
 	},
-	朋友：{
-		名字：“友链”，
-		网址： "/friends/",
-		图标：“material-symbols:group”，
-		页面键："朋友"，
+	Friends: {
+		name: "友链",
+		url: "/friends/",
+		icon: "material-symbols:group",
+		pageKey: "friends",
 	},
-	访客簿：{
-		名字：“留言”，
-		网址： "/guestbook/"
+	Sponsor: {
+		name: "打赏",
+		url: "/sponsor/",
+		icon: "material-symbols:favorite",
+		pageKey: "sponsor",
+	},
+	Guestbook: {
+		name: "留言",
+		url: "/guestbook/",
 		icon: "material-symbols:chat",
 		pageKey: "guestbook",
 	},
