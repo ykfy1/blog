@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "楊飛躍",
 
 	// 个人签名
-	bio: "你好，我是楊飛躍",
+	bio: "楊飛躍的博客,一个普通干饭的人🍚",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
