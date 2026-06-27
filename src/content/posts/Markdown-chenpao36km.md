@@ -8,9 +8,9 @@ category: 文章示例
 draft: false
 ---
 
-<!-- 把原来的margin:2px改成你需要的间距，比如右侧间距设为15px -->
-<div style="float:left;border:solid 1px #000;margin-right: 15px;"><img src="/images/36km1.png" width="200" height="260" ></div>
-<div style="float:left;border:solid 1px #000;margin-right: 15px;"><img src="/images/36km2.png" width="200" height="260" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km1.png" width="200" height="260" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km2.png" width="200" height="260" ></div>
+<!-- 新增：清除浮动，解决排版错位 -->
 <div style="clear:both;"></div>
 
 
