@@ -13,12 +13,6 @@
 
 **🏠我的博客： (https://blog.yangfeiyue.bot.cd/)**
 
-**📝Firefly使用文档： (https://blog.yangfeiyue.bot.cd/)**
-
-**⭐Firefly开源地址：(https://blog.yangfeiyue.bot.cd/)**
-
-**⭐Fuwari开源地址：(https://blog.yangfeiyue.bot.cd/)**
-
 
 ---
 
