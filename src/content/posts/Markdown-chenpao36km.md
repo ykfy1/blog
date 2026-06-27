@@ -10,6 +10,8 @@ draft: false
 
 ## 跑步配图
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;">
+  
 ![示例1](/images/36km1.png)
+  
 ![示例2](/images/36km2.png)
 </div>
