@@ -56,6 +56,20 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "#",
+		icon: "material-symbols:info",
+		children: [
+			// 打赏
+			LinkPresets.Sponsor,
+
+			// 关于页面
+			LinkPresets.About,
+		],
+	});
+
 	// 自定义导航栏链接
 	links.push({
 		name: "链接",
@@ -65,25 +79,25 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/",
+				url: "https://github.com/CuteLeaf/Firefly",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Gitee",
-				url: "https://gitee.com/",
+				url: "https://gitee.com/CuteLeaf/Firefly",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "QQ交流群",
-				url: "https://qm.qq.com/q/",
+				url: "https://qm.qq.com/q/ZGsFa8qX2G",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "文档",
-				url: "https://blog.yangfeiyue.bot.cd/",
+				name: "Firefly文档",
+				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
 				icon: "material-symbols:docs",
 			},
@@ -93,23 +107,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 文档链接
 	// links.push({
 	// 	name: "文档",
-	// 	url: "https://blog.yangfeiyue.bot.cd/",
+	// 	url: "https://docs-firefly.cuteleaf.cn",
 	// 	external: true,
 	// 	icon: "material-symbols:docs",
 	// });
-
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "#",
-		icon: "material-symbols:info",
-		children: [
-			// 打赏
-			
-			// 关于页面
-			LinkPresets.About,
-		],
-	});
 
 	return { links } as NavBarConfig;
 };
@@ -151,10 +152,10 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "friends",
 	},
 	Sponsor: {
-		name: "",
-		url: "",
-		icon: "",
-		pageKey: "",
+		name: "打赏",
+		url: "/sponsor/",
+		icon: "material-symbols:favorite",
+		pageKey: "sponsor",
 	},
 	Guestbook: {
 		name: "留言",
