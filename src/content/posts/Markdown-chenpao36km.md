@@ -8,8 +8,7 @@ category: 文章示例
 draft: false
 ---
 
-<!-- 所有正文、图片、布局代码，全部写在第二个 --- 下方 -->
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;">
-![示例1](./images/36km1.png)
-![示例2](./images/36km2.png)
+![示例1](/images/36km1.png)
+![示例2](/images/36km2.png)
 </div>
