@@ -76,10 +76,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:gitee",
 			},
 			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/",
+				name: "音乐播放器",
+				url: "https://music.yangfeiyue.bot.cd/",
 				external: true,
-				icon: "fa7-brands:qq",
+				icon: "音乐播放器",
 			},
 			{
 				name: "文档",
