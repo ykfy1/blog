@@ -1,4 +1,13 @@
-# 网络电视/ IPTV
+---
+title: IPTV网络电视
+published: 2026-06-29
+pinned: true
+description: IPTV
+tags: [Markdown, 博客, 主题, 模板]
+category: 文章示例
+draft: false
+image: ./images/firefly2.avif
+---
 
 **🖥️浙江卫视： (https://player.yangfeiyue.bot.cd/player/?vurl=https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8)**
 
