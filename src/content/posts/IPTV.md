@@ -6,7 +6,7 @@ description: IPTV
 tags: [Markdown, 博客, 主题, 模板]
 category: 文章示例
 draft: false
-image: ./images/iptv.jpg
+image: ./images/iptv.png
 ---
 
 **🖥️在线预览： [浙江卫视](https://player.yangfeiyue.bot.cd/player/?vurl=https://ali-xwl.cztv.com/live/channel011080Plxw.m3u8)**
