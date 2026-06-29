@@ -70,8 +70,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/",
+				name: "IPTV",
+				url: "https://blog.yangfeiyue.cc.cd/posts/iptv/",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
