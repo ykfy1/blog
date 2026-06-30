@@ -85,7 +85,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "烟花",
 				url: "https://yanhua.yangfeiyue.bot.cd/",
 				external: true,
-				icon: "material-solid:burst",
+				icon: "fa7-solid:burst",
 			},
 		],
 	});
