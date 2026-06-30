@@ -82,10 +82,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-solid:music",
 			},
 			{
-				name: "文档",
-				url: "https://blog.yangfeiyue.bot.cd/",
+				name: "烟花",
+				url: "https://yanhua.yangfeiyue.bot.cd/",
 				external: true,
-				icon: "material-symbols:docs",
+				icon: "material-solid:burst",
 			},
 		],
 	});
