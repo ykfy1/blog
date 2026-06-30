@@ -79,7 +79,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "音乐播放器",
 				url: "https://music.yangfeiyue.bot.cd/",
 				external: true,
-				icon: "fa7-brands:qq",
+				icon: "fa7-solid:music",
 			},
 			{
 				name: "文档",
