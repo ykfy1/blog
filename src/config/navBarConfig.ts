@@ -73,7 +73,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "IPTV",
 				url: "https://blog.yangfeiyue.cc.cd/posts/iptv/",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-solid:tv",
 			},
 			{
 				name: "音乐播放器",
