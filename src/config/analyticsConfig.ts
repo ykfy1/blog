@@ -34,7 +34,7 @@ export const analyticsConfig: AnalyticsConfig = {
 	// 51la 统计配置
 	la51Analytics: {
 		// 51la 统计 ID
-		Id: "LA_COLLECT",
+		Id: "3QPrAwmFv6SO4I5T",
 		// 自定义 SDK JS 地址，防止 DNS 污染，留空使用默认地址
 		sdkUrl: "https://sdk.51.la/js-sdk-pro.min.js",
 		// 多个统计 ID 的数据分离标识，留空则使用 Id
