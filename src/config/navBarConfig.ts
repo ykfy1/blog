@@ -90,6 +90,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// 友链
+	links.push(LinkPresets.Friends);
+
+	// 留言板
+	links.push(LinkPresets.Guestbook);
+
 	// 关于及其子菜单
 	links.push({
 		name: "关于",
