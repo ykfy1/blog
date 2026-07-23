@@ -80,7 +80,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-			"Hi,我是楊飛躍",
+			"Hi,我是楊飛躍！",
 				"欢迎来到我的博客🎉",
 				"",
 				"",
