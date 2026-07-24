@@ -36,7 +36,7 @@ export const analyticsConfig: AnalyticsConfig = {
 		// 51la 统计 ID
 		Id: "3QPrAwmFv6SO4I5T",
 		// 自定义 SDK JS 地址，防止 DNS 污染，留空使用默认地址
-		sdkUrl: "https://v6-widget.51.la/v6/3QPrAwmFv6SO4I5T/quote.js?theme=0&f=12",
+		sdkUrl: "https://sdk.51.la/js-sdk-pro.min.js",
 		// 多个统计 ID 的数据分离标识，留空则使用 Id
 		ck: "3QPrAwmFv6SO4I5T",
 		// 是否开启事件分析功能
