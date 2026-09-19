@@ -1,5 +1,5 @@
 ---
-title: 周末晨跑10公里
+title: 晨跑10公里
 published: 2026-09-15
 pinned: true
 description: 晨跑10公里，平均配速4分08秒。😃
